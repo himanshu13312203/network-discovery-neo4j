@@ -69,7 +69,7 @@ MATCH (s:Subnet) RETURN count(s) AS Total_Subnets;
 
 
 //
-// 9. Bonus: Show All Nodes and All Relationships
+// 9.  Show All Nodes and All Relationships
 //
 MATCH (n)-[r]->(m)
 RETURN n, r, m;
